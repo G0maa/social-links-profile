@@ -1,0 +1,28 @@
+{
+  "name": "social-links-profile",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social links profile coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8080",
+    "accessibility": "axe http://localhost:8080",
+    "html-validate": "html-validator --file index.html",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@axe-core/cli": "^4.9.0",
+    "axe-core": "^4.9.0",
+    "html-validator": "^6.0.1",
+    "html-validator-cli": "^7.0.1",
+    "http-server": "^14.1.1",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "prettier-plugin-css-order": "^2.1.2",
+    "prettier-plugin-organize-attributes": "^1.0.0"
+  }
+}
